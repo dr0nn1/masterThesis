@@ -1,0 +1,37 @@
+python object_tracker.py --video ./data/video/bade4.mp4 --output ./outputs/demo.avi --model yolov4  #save output
+python object_tracker.py --video ./data/video/bade4.mp4 --model yolov4
+
+yoloTiny:
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/bade4.mp4 --tiny --output ./viz/grillstad/pred.mp4
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/09.mp4 --tiny --output ./viz/solsiden/solsiden9/pred.mp4
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/15.mp4 --tiny --output ./viz/solsiden/solsiden15/pred.mp4
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/fallClose.mp4 --tiny --output ./viz/solsiden/close/pred.mp4
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/fallMid.mp4 --tiny --output ./viz/solsiden/mid/pred.mp4
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/fallFar.mp4 --tiny --output ./viz/solsiden/far/pred.mp4
+
+
+CONVERT:
+python save_model.py --weights ./data/yolov4-tiny-new.weights --output ./checkpoints/yolov4-tiny-416-new --model yolov4 --tiny
+
+----------------------new----------------------------------------
+yoloTiny:
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416-new --model yolov4 --video ./data/video/09.mp4 --tiny --output ./viz/new/solsiden/solsiden9/pred.mp4
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416-new --model yolov4 --video ./data/video/15.mp4 --tiny --output ./viz/new/solsiden/solsiden15/pred.mp4
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416-new --model yolov4 --video ./data/video/fallClose.mp4 --tiny --output ./viz/new/solsiden/close/pred.mp4
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416-new --model yolov4 --video ./data/video/fallMid.mp4 --tiny --output ./viz/new/solsiden/mid/pred.mp4
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416-new --model yolov4 --video ./data/video/fallFar.mp4 --tiny --output ./viz/new/solsiden/far/pred.mp4
+
+
+
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416-new --model yolov4 --video ./data/video/fallClose.mp4 --tiny --output ./viz/test/pred.mp4
+
+
