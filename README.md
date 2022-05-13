@@ -3,13 +3,17 @@ Done as a Master theis in the subject [TTK4900 - Engineering Cybernetics, Master
 The thesis was done in collaboration with [Zebop Avalon](https://www.zebopavalon.com/pilot)
 
 ## About
-A system developed using machine learning to detect a person falling into the water
+A system developed using machine learning to detect a person falling into the water.  
+The system uses a custom YOLOv4-tiny model as an object detection model and deep SORT as an object tracker.  
+The goal of the system is to detect and report if a person falls into the water, and in this way reduce the number of drowning accidents. 
 
 ## Demo
 [Demo](https://youtu.be/JNwC5vngN5Q) demonstrating the system
 
 ## Pictures
-![](pictures/normal.png)  |  ![](pictures/personSlow.png)   |  ![](pictures/fall.png)
+Normal operation | Person climbing the ladder | Person falling |
+:-------------------------:|:-------------------------:|:-------------------------:
+![](pictures/normal.png) | ![](pictures/personSlow.png)  | ![](pictures/fall.png)
 
 ## Report
 Soon inc
