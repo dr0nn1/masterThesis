@@ -1,3 +1,15 @@
 # Master thesis
-Done as a Master theis in the subject [TTK4900 - Teknisk kybernetikk, masteroppgave](https://www.ntnu.no/studier/emner/TTK4900#tab=omEmnet) for NTNU Trondheim.  
+Done as a Master theis in the subject [TTK4900 - Engineering Cybernetics, Master's Thesis](https://www.ntnu.edu/studies/courses/TTK4900#tab=omEmnet) for NTNU Trondheim.  
 The thesis was done in collaboration with [Zebop Avalon](https://www.zebopavalon.com/pilot)
+
+
+## Demo
+https://youtu.be/JNwC5vngN5Q
+
+## Pictures
+
+## Report
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/dr0nn1/masterThesis/blob/main/LICENSE) file for details
