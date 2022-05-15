@@ -8,7 +8,7 @@ The system uses a custom YOLOv4-tiny model as an object detection model and deep
 The goal of the system is to detect and report if a person falls into the water, and in this way reduce the number of drowning accidents. 
 
 ## Demo
-[Demo](https://youtu.be/JNwC5vngN5Q) demonstrating the system
+[Demo](https://youtu.be/tMXxFmUmMcw) demonstrating the system
 
 ## Pictures
 Normal operation | Person climbing the ladder | Person falling |
@@ -16,7 +16,7 @@ Normal operation | Person climbing the ladder | Person falling |
 ![](pictures/normal.png) | ![](pictures/personSlow.png)  | ![](pictures/fall.png)
 
 ## Report
-Soon inc
+Soon inc [Report]()
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/dr0nn1/masterThesis/blob/main/LICENSE) file for details
