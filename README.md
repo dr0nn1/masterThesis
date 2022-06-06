@@ -16,7 +16,7 @@ Normal operation | Person climbing the ladder | Person falling |
 ![](pictures/normal.png) | ![](pictures/personSlow.png)  | ![](pictures/fall.png)
 
 ## Report
-Soon inc [Report]()
+[Report](https://github.com/dr0nn1/masterThesis/blob/main/report/thesis.pdf)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/dr0nn1/masterThesis/blob/main/LICENSE) file for details
